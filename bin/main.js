@@ -94,5 +94,5 @@ module.exports = function (content, file, conf) {
             + (fontResult ? fontResult : '');
     }
 
-    return return new Buffer(post());
+    return post();
 };
