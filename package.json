@@ -9,6 +9,14 @@
   "scripts": {
     "test": "node ./spec/test/main.js"
   },
+  "keywords": [
+    "rem",
+    "px to rem",
+    "px2rem",
+    "gulp rem",
+    "gulp px2rem",
+    "gulp px to rem"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -20,5 +28,13 @@
   "gitHead": "5b7b2c4bdcb38afc52aa7edd7c6f23f95c9b1965",
   "_id": "gulp-rem-plus@0.0.2",
   "_shasum": "25033c3e3c70f3df31bf5213ef2fa40a16d09c16",
-  "_from": "gulp-rem-plus@latest"
+  "_from": "gulp-rem-plus@latest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neverland/gulp-rem-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neverland/gulp-rem-plus/issues"
+  },
+  "homepage": "https://github.com/Neverland/gulp-rem-plus#readme"
 }
