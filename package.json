@@ -1,0 +1,23 @@
+{
+  "name": "gulp-rem-plus",
+  "version": "0.0.1",
+  "description": "gulp px单位转rem单位。可以配合淘宝flexible.js使用!",
+  "main": "index.js",
+  "bin": {
+    "gulp-rem-plus": "main.js"
+  },
+  "scripts": {
+    "test": "node ./spec/test/main.js"
+  },
+  "author": [
+    {
+      "name": "ienix",
+      "email": "ienix@foxmail.com"
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "css": "^2.2.1",
+    "through2": "^2.0.1"
+  }
+}
