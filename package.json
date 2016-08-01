@@ -1,6 +1,6 @@
 {
   "name": "gulp-rem-plus",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "gulp px单位转rem单位。可以配合淘宝flexible.js使用!",
   "main": "index.js",
   "bin": {
