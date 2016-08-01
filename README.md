@@ -1,6 +1,6 @@
-# fis3-parser-rem
+# gulp-rem-plus
 
-fis3 对px单位的css属性自动转化为rem为单位的fis插件。
+gulp 对px单位的css属性自动转化为rem为单位的fis插件,基于rem的解决方案[rem-core](https://www.npmjs.com/package/rem-core)的二次开发。
 
 -----------------
     - 使用node-css把css解析后,对px为单位对属性进行rem转换处理。
@@ -11,16 +11,17 @@ fis3 对px单位的css属性自动转化为rem为单位的fis插件。
 ## flexible.js
 默认可以配合淘宝的[flexible.js](https://github.com/amfe/lib-flexible)使用
 
-## fis配置
+## Option
 
 ```javascript
-fis.match('*.css', {
-    parser: fis.plugin('rem', {
-        dpr: 2,
-        rem: 750,
-        exclude: ['background-size']
-    })
-})
+gulp.task('build', function() {
+    return gulp.src('./demo.css')
+        .pipe(rem({
+            rem: 750,
+            dpr: 2
+        }))
+        .pipe(gulp.dest('./aio'))
+});
 ```
 
 
@@ -91,7 +92,7 @@ body {
 ```
 
 ## 关于原始值
-    -v0.0.8添加可以看到rem的原始值
+    -未启用压缩时可以看到原始值
 ```css
     margin: 0.6668rem/* @source-size: 25px; */ 0;
 ```
@@ -108,14 +109,9 @@ body {
     </thead>
     <tbody> 
         <tr>
-            <td>v0.0.8</td>
-            <td>Feature</td>
-            <td>添加原始值</td>
-        </tr>
-        <tr>
-            <td>v0.0.7</td>
-            <td>Bugfixed</td>
-            <td>全局选择器问题</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
         </tr>
     </tbody>
 </table>

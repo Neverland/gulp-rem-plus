@@ -11,6 +11,7 @@
   },
   "keywords": [
     "rem",
+    "gulp",
     "px to rem",
     "px2rem",
     "gulp rem",
@@ -21,8 +22,9 @@
   "license": "ISC",
   "dependencies": {
     "css": "^2.2.1",
-    "through2": "^2.0.1",
-    "gulp-util": "3.0.7"
+    "gulp-util": "3.0.7",
+    "rem-core": "0.0.3",
+    "through2": "^2.0.1"
   },
   "readmeFilename": "README.md",
   "gitHead": "5b7b2c4bdcb38afc52aa7edd7c6f23f95c9b1965",
