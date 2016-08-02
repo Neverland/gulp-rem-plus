@@ -1,6 +1,6 @@
 {
   "name": "gulp-rem-plus",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "gulp px单位转rem单位。可以配合淘宝flexible.js使用!",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "css": "^2.2.1",
     "gulp-util": "3.0.7",
-    "rem-core": "0.0.3",
+    "rem-core": ">=0.0.5",
     "through2": "^2.0.1"
   },
   "readmeFilename": "README.md",
