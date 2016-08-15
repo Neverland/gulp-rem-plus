@@ -1,6 +1,6 @@
 # gulp-rem-plus
 
-gulp 对px单位的css属性自动转化为rem为单位的fis插件,基于rem的解决方案[rem-core](https://www.npmjs.com/package/rem-core)的二次开发。
+gulp 对px单位的css属性自动转化为rem为单位的插件,基于rem的解决方案[rem-core](https://www.npmjs.com/package/rem-core)的二次开发。
 
 -----------------
     - 使用node-css把css解析后,对px为单位对属性进行rem转换处理。

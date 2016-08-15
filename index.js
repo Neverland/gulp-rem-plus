@@ -1,5 +1,5 @@
 /**
- * @file fis3-parse-rem
+ * @file gulp-parse-rem
  * @author ienix(ienix@foxmail.com)
  *
  * @since 16/5/26
