@@ -27,7 +27,7 @@ gulp.task('build', function() {
 
 ## Usage
 
-* 需要在css文件头部声明/*!@userem*/
+* 需要在css文件头部声明/* !@userem */
 
 ```css
 body {
@@ -51,11 +51,11 @@ body {
 
 ## Option
 
-- rem `{Number}` 1rem=多少px `default` 18
-- min `{Number}` 最小转化值 `default` 3
+- rem `{number}` 1rem=多少px `default` 18
+- min `{number}` 最小转化值 `default` 3
 - exclude `{Array.<String>}` 忽略的样式 `default` `['width', 'height', 'background', 'background-size']`
-- type `{?default}` 支持[flexible](https://github.com/amfe/lib-flexible)
-- dpr `{!Number}` 1, 2, 3 如设计稿的尺寸为
+- type `{?string}` `default` default 支持[flexible](https://github.com/amfe/lib-flexible)
+- dpr `{!number}` 1, 2, 3 如设计稿的尺寸为
     *320-375 那么dpr为1 
     *640-720 那么dpr为2 
 

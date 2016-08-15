@@ -9,9 +9,19 @@
 
 var through2 = require('through2');
 var gutil = require('gulp-util');
-var rem = require('rem-core');
 
-module.exports = function (content, file, conf) {
+var rem = require('rem-core');
+var defaultOptions = {
+    rem: 18,
+    min: 3,
+    dpr: 2,
+    exclude: [
+        'background', 'background-size'
+    ]
+};
+
+module.exports = function (conf) {
+    conf = Object.assign({}, defaultOptions, conf);
 
     return through2.obj(function(file, enc, cb) {
         if (file.isNull()) {
@@ -23,6 +33,6 @@ module.exports = function (content, file, conf) {
 
         file.contents = new Buffer(result);
 
-       cb(null, file);
+        cb(null, file);
     });
 };
